@@ -9,12 +9,12 @@ export default function App() {
     return <Card key={item.id} {...item} />;
   });
 
-  return (  
+  return ( 
 
-    <div >
+    <div>
       <Navbar  />
       <Hero />
-      <section  className="cards-list">{cards}</section>
+      <section  className = "cards-list">{cards}</section>
     </div>
   );
 }
