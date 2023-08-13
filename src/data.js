@@ -12,7 +12,7 @@ export default [
     },
     location: "Online",
     openSpots: 0,
-  },
+  } ,
   {
     id: 2,
     title: "Learn Wedding Photography",
